@@ -8,6 +8,7 @@ Cogs developed, and/ or modified by me. They can be used in your bot aslong I re
 If you have any issues with any of the cogs, <a href="https://github.com/aaronplayz-sys/RoboCop/issues">open an issue on GitHub</a>.
 
 ## How to install
+[p] = your bot's prefix (ex. !, ?, -)
 
 Type `[p]repo add RoboCop https://github.com/aaronplayz-sys/RoboCop/` to add the repo.
 
