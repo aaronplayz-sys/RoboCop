@@ -34,5 +34,6 @@ class Meme(commands.Cog):
         embed = discord.Embed(title = name)
 
         embed.set_image(url=url)
+        embed.set_footer(text="NOTE: This command is a W.I.P.")
 
         await ctx.send(embed=embed)
