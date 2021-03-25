@@ -36,9 +36,3 @@ class Meme(commands.Cog):
         embed.set_image(url=url)
 
         await ctx.send(embed=embed)
-
-        
-
-
-#def setup(bot):
-    #bot.add_cog(meme(bot))
