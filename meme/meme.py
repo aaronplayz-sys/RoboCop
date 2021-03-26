@@ -18,6 +18,8 @@ class Meme(commands.Cog):
         """
         Generates a meme from Reddit
         """
+        await ctx.send("Retreving...")
+
         subreddit = await reddit.subreddit("dankmemes", fetch=True)
         all_subs = []
 
@@ -30,8 +32,6 @@ class Meme(commands.Cog):
 
         name = random_sub.title
         url = random_sub.url
-
-        await ctx.send("Retriving...")
 
         embed = discord.Embed(title = name)
 
