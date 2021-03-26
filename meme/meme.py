@@ -31,6 +31,8 @@ class Meme(commands.Cog):
         name = random_sub.title
         url = random_sub.url
 
+        await ctx.send("Retriving...")
+
         embed = discord.Embed(title = name)
 
         embed.set_image(url=url)
