@@ -1,0 +1,13 @@
+{
+    "author": [
+        "AaronPlayz"
+    ],
+    "install_msg": "Thank you for installing my cog!",
+    "name": "animote",
+    "short": "Let's you send animated emotes!",
+    "description": "This gives user that do not have nitro the ability to send animated emotes! (only works in the current server)",
+    "tags": [
+        "animote",
+        "animatedEmotes"
+    ]
+}
