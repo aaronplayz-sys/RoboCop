@@ -22,5 +22,8 @@ Click on the cog names to get to my wiki page and learn about them.
 
 | Name | Description | 
 | --- | --- | 
-| [W.I.P](#) | will be added | 
-| [W.I.P](#) | will be added. | 
+| [animote](https://github.com/aaronplayz-sys/RoboCop/tree/main/animote) | Let's you send animated emotes! | 
+| [echo](https://github.com/aaronplayz-sys/RoboCop/tree/main/echo) | A command that repeats the users input back into them |
+| [fun](https://github.com/aaronplayz-sys/RoboCop/tree/main/fun) | Fun commands! |
+| [vcrename](https://github.com/aaronplayz-sys/RoboCop/tree/main/vcrename) | Let's you & admin's change voice channels name with a command! |
+| [meme](https://github.com/aaronplayz-sys/RoboCop/tree/main/meme) | W.I.P |
