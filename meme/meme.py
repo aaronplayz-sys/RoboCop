@@ -4,11 +4,11 @@ import asyncpraw
 import random
 
 reddit = asyncpraw.Reddit(
-    user_agent="RoboCop-8070",
-    client_id="7FoQYOQIEsx6DA",
-    client_secret="kGtpyGAyuZ8Zp_aBxbj3I3wGGj8SZA",
-    username="RoboCop-8070",
-    password="qVxjMuUnZigh35s",
+    user_agent="Chrome",
+    client_id="INPUTID",
+    client_secret="INPUTSECRET",
+    username="urbotusername",
+    password="urbotpassword",
 )
 
 class Meme(commands.Cog):
