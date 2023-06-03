@@ -29,7 +29,7 @@ Click on the cog names to get to my wiki page and learn about them.
 | [fun](https://github.com/aaronplayz-sys/RoboCop/tree/main/fun) | Fun commands! |
 | [vcrename](https://github.com/aaronplayz-sys/RoboCop/tree/main/vcrename) | Let's you & admin's change voice channels name with a command! |
 | [meme](https://github.com/aaronplayz-sys/RoboCop/tree/main/meme) | abandoned project |
-| [Tube](https://github.com/aaronplays-sys/RoboCop/tree/main/Tube) | A youtube notifier, modified by me. **being tested**
+| [Tube](https://github.com/aaronplayz-sys/RoboCop/tree/main/Tube) | A youtube notifier, modified by me. **being tested**
 
 ## Modified cogs
 
