@@ -3,7 +3,7 @@ import discord
 from redbot.core import commands, app_commands
 
 class slashtest(commands.Cog):
-    def __init__(self, bot):
+    def __init__(self):
         self.bot = bot
     
     @app_commands.command()
