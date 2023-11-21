@@ -1,6 +1,6 @@
 import discord
 
-from redbot.core import commands, app_commands
+from redbot.core import commands, app_commands, bot
 
 class slashtest(commands.Cog):
     def __init__(self, bot: bot.Red):
