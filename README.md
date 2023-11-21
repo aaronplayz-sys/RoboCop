@@ -29,7 +29,6 @@ I take no responsibility in misuse of my cogs.
 | [echo](https://github.com/aaronplayz-sys/RoboCop/tree/main/echo) | A command that repeats the users input back into them |
 | [fun](https://github.com/aaronplayz-sys/RoboCop/tree/main/fun) | Fun commands! |
 | [vcrename](https://github.com/aaronplayz-sys/RoboCop/tree/main/vcrename) | Let's you & admin's change voice channels name with a command! |
-| [meme](https://github.com/aaronplayz-sys/RoboCop/tree/main/meme) | abandoned project, feel free to modify. |
 | [Tube](https://github.com/aaronplayz-sys/RoboCop/tree/main/Tube) | A youtube notifier, modified by me. |
 | [slashtest](https://github.com/aaronplayz-sys/RoboCop/tree/main/slashtest) | This commands simply returns 'Hello World'. *Temporary cog*
 
@@ -41,4 +40,5 @@ I take no responsibility in misuse of my cogs.
 
 ## Changelog
 11/21/2023:
-slashtest was added as a temporary cog as a test to convert cogs into slash commands!
+- slashtest was added as a temporary cog as a test to convert cogs into slash commands!
+ - Removed meme as it is no longer mantained.
