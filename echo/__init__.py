@@ -1,5 +1,5 @@
 from .echo import Echo
 
-def setup(bot):
+async def setup(bot):
     cog = Echo(bot)
-    bot.add_cog(Echo())
+    await bot.add_cog(Echo())
