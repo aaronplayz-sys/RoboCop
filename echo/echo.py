@@ -1,11 +1,11 @@
-from redbot.core import commands
+from redbot.core import bot, commands
 import discord
+import asyncio
 
 class Echo(commands.Cog):
   
-  @commands.Cog.listener()
-  async def on_ready(self):
-    print("echo cog has been loaded")
+  def __init__(self, bot: bot.Red):
+    self.bot = bot
   
   @commands.command()
   async def echo(self, ctx, *, message=None):
