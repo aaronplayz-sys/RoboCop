@@ -1,4 +1,4 @@
 from .slashtest import slashtest
 
-def setup(bot):
-    bot.add_cog(slashtest(bot))
+async def setup(bot: Red):
+    await bot.add_cog(slashtest)
