@@ -3,7 +3,7 @@ from redbot.core.bot import Red
 from typing import Literal, Optional
 import discord
 
-class slashsync(commands.cog):
+class slashsync(commands.Cog):
     """Credits goes to about.abstract.umbra.dev"""
 
     @commands.command()
