@@ -28,13 +28,13 @@ class slashsync(commands.cog):
             )
             return
 
-    ret = 0
-    for guild in guilds:
-        try:
-            await ctx.bot.tree.sync(guild=guild)
-        except discord.HTTPException:
-            pass
-        else:
-            ret += 1
+        ret = 0
+        for guild in guilds:
+            try:
+                await ctx.bot.tree.sync(guild=guild)
+            except discord.HTTPException:
+                pass
+            else:
+                ret += 1
 
-    await ctx.send(f"Synced the tree to {ret}/{len(guilds)}.")
+        await ctx.send(f"Synced the tree to {ret}/{len(guilds)}.")
