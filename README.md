@@ -27,7 +27,7 @@ I take no responsibility for misuse of my cogs.
 | --- | --- |
 | [**BROKEN**] [animote](https://github.com/aaronplayz-sys/RoboCop/tree/main/animote) | lets you send animated emotes! |
 | [**BROKEN**] [echo](https://github.com/aaronplayz-sys/RoboCop/tree/main/echo) | A command that repeats the user's input back into them |
-| [**BROKEN**] [fun](https://github.com/aaronplayz-sys/RoboCop/tree/main/fun) | Fun commands! |
+| [**DEPRECIATED**] [fun](https://github.com/aaronplayz-sys/RoboCop/tree/main/fun) | Fun commands! |
 | [**BROKEN**] [vcrename](https://github.com/aaronplayz-sys/RoboCop/tree/main/vcrename) | lets you & admin's change voice channel's name with a command! |
 | [Tube](https://github.com/aaronplayz-sys/RoboCop/tree/main/Tube) | A YouTube notifier, modified by me. |
 | [slashtest](https://github.com/aaronplayz-sys/RoboCop/tree/main/slashtest) | This commands simply returns 'Hello World'. *Temporary cog*
@@ -50,5 +50,7 @@ It was success in creating a slash command with slash test! Additionally, I util
 Deleted never worked cog, advuptime.
 
 To-do:
-- Attempt to fix animote, echo, fun, and vcrename. Also make them hybrid commands.
+- Attempt to fix animote, echo, and vcrename. Also make them hybrid commands.
 - Make Tube cog, a hybrid command
+
+The fun cog is no longer being maintained and has been removed.
