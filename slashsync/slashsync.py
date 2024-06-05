@@ -6,7 +6,7 @@ import discord
 class slashsync(commands.Cog):
     """Credits goes to about.abstract.umbra.dev"""
 
-    @commands.command()
+    @commands.hybrid_command(name="sync")
     @commands.guild_only()
     @commands.is_owner()
     async def sync(self, ctx: commands.Context, guilds: commands.Greedy[discord.Object], spec: Optional[Literal["~", "*", "^"]] = None) -> None:
