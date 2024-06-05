@@ -29,7 +29,6 @@ I take no responsibility for misuse of my cogs.
 | [**BROKEN**] [echo](https://github.com/aaronplayz-sys/RoboCop/tree/main/echo) | A command that repeats the user's input back into them |
 | [**DEPRECIATED**] [fun](https://github.com/aaronplayz-sys/RoboCop/tree/main/fun) | Fun commands! |
 | [**BROKEN**] [vcrename](https://github.com/aaronplayz-sys/RoboCop/tree/main/vcrename) | lets you & admin's change voice channel's name with a command! |
-| [Tube](https://github.com/aaronplayz-sys/RoboCop/tree/main/Tube) | A YouTube notifier, modified by me. |
 | [slashtest](https://github.com/aaronplayz-sys/RoboCop/tree/main/slashtest) | This commands simply returns 'Hello World'. *Temporary cog*
 
 ## Modified cogs
