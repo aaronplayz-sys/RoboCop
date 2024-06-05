@@ -36,7 +36,7 @@ I take no responsibility for misuse of my cogs.
 
 | Cog name | What was modified | Original repo or source | Why? |
 | --- | --- | --- | --- |
-| Tube | `__init__.py` | [cbd-cogs](https://gitlab.com/CrunchBangDev/cbd-cogs) | `bot.add_cog(Tube(bot))` was not awaited cause the cog to not be loaded. |
+| Tube | `__init__.py` | [CBD-cogs](https://gitlab.com/CrunchBangDev/cbd-cogs) | `bot.add_cog(Tube(bot))` was not awaited cause the cog to not be loaded. |
 | [slashsync](https://github.com/aaronplayz-sys/RoboCop/tree/main/slashsync) | swapped imports and `bot.command()` to be compatible with red and made into a cog. | [about.abstractumbra.dev](https://about.abstractumbra.dev/discord.py/2023/01/29/sync-command-example.html) | was not a cog to begin with.
 
 ## Changelog
@@ -44,8 +44,10 @@ I take no responsibility for misuse of my cogs.
 
 It was success in creating a slash command with slash test! Additionally, I utilized some code from Umbra and made it into a hybrid command cog.
 
-- slashtest is useable
+- Slashtest is useable
 - Slashsync is an useable hybrid command (hybrid function still needs to be tested)
+
+Deleted never worked cog, advuptime.
 
 To-do:
 - Attempt to fix animote, echo, fun, and vcrename. Also make them hybrid commands.

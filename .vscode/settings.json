@@ -1,0 +1,9 @@
+{
+    "languageToolLinter.languageTool.ignoredWordsInWorkspace": [
+        "advuptime",
+        "animote",
+        "slashsync",
+        "slashtest",
+        "vcrename"
+    ]
+}
