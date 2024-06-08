@@ -1,4 +1,6 @@
-from .echo import Echo
+from redbot.core.bot import Red
 
-async def setup(bot):
-    await bot.add_cog(Echo(bot))
+from .echo import echo
+
+async def setup(bot: Red) -> None:
+    await bot.add_cog(echo())
