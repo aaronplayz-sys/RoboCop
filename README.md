@@ -23,12 +23,12 @@ Click on the cog names to get to my wiki page and learn about them.
 ***I highly suggest reading through the guides as some cogs may be a bit complicated!*** 
 I take no responsibility for misuse of my cogs.
 
-| Name | Description |
-| --- | --- |
-| [**BROKEN**] [animote](https://github.com/aaronplayz-sys/RoboCop/tree/main/animote) | lets you send animated emotes! |
-| [**BROKEN**] [echo](https://github.com/aaronplayz-sys/RoboCop/tree/main/echo) | A command that repeats the user's input back into them |
-| [**BROKEN**] [vcrename](https://github.com/aaronplayz-sys/RoboCop/tree/main/vcrename) | lets you & admin's change voice channel's name with a command! |
-| [slashtest](https://github.com/aaronplayz-sys/RoboCop/tree/main/slashtest) | This commands simply returns 'Hello World'. *Temporary cog*
+| Name | Description | Hybrid cog? |
+| --- | --- | --- |
+| [**BROKEN**] [animote](https://github.com/aaronplayz-sys/RoboCop/tree/main/animote) | lets you send animated emotes! | No |
+| [echo](https://github.com/aaronplayz-sys/RoboCop/tree/main/echo) | A command that repeats the user's input back into them | Yes |
+| [**BROKEN**] [vcrename](https://github.com/aaronplayz-sys/RoboCop/tree/main/vcrename) | lets you & admin's change a voice channel's name with a command! | No |
+| [slashtest](https://github.com/aaronplayz-sys/RoboCop/tree/main/slashtest) | This commands simply returns 'Hello World'. *Temporary cog* | Yes |
 
 ## Modified cogs
 
@@ -38,17 +38,10 @@ I take no responsibility for misuse of my cogs.
 | [slashsync](https://github.com/aaronplayz-sys/RoboCop/tree/main/slashsync) | swapped imports and `bot.command()` to be compatible with red and made into a cog. | [about.abstractumbra.dev](https://about.abstractumbra.dev/discord.py/2023/01/29/sync-command-example.html) | was not a cog to begin with.
 
 ## Changelog
-6/5/2024
+6/7/2024
 
-It was success in creating a slash command with slash test! Additionally, I utilized some code from Umbra and made it into a hybrid command cog.
-
-- Slashtest is useable
-- Slashsync is an useable hybrid command (hybrid function still needs to be tested)
-
-Deleted never worked cog, advuptime.
+The echo cog now works and is a 100% functioning hybrid command!
 
 To-do:
-- Attempt to fix animote, echo, and vcrename. Also make them hybrid commands.
+- Attempt to fix animote, and vcrename. Also make them hybrid commands.
 - Make Tube cog, a hybrid command
-
-The fun cog is no longer being maintained and has been removed.
