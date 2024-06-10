@@ -1,5 +1,6 @@
-from .vcrename import VcRename
+from redbot.core.bot import Red
 
+from .vcrename import vcrename
 
-def setup(bot):
-    bot.add_cog(VcRename())
+async def setup(bot: Red) -> None:
+    await bot.add_cog(vcrename())

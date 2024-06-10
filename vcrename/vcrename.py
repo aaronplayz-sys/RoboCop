@@ -1,41 +1,38 @@
 from redbot.core import commands
+from redbot.core.bot import Red
 import discord
 
-class VcRename(commands.Cog):
+class vcrename(commands.Cog):
+  """Gives server owners and admins ability to rename voice channels via chat."""
 
-  @commands.command(
-    name='vcrename',
-    aliases=['vcre']
-  )
+  @commands.hybrid_command(name="vcrename", description="Rename voice channels via chat.")
   @commands.has_permissions(manage_channels=True)
-  async def vcrename(self, ctx, channel: discord.VoiceChannel, *, new_name):
+  async def vcrename(self, ctx: commands.Context, channel: discord.VoiceChannel, *, new_name):
     await channel.edit(name=new_name)
     embed = discord.Embed(
-      color = discord.Color.dark_green()
+      color=discord.Color.dark_green()
     )
 
-    embed.add_field(name='Success!', value='The voice channel has been updated successfully!')
-    
-    
+    embed.add_field(name='Sucess!', value='The voice channel has been updated!')
+
     await ctx.send(embed=embed)
 
   @vcrename.error
-  async def vcrename_error(self, ctx, error):
+  async def vcrename_error(self, ctx: commands.Context, error):
     if isinstance(error, commands.MissingPermissions):
       embed = discord.Embed(
-        color = discord.Color.dark_red()
+        color=discord.Color.Dark_red()
       )
 
-      embed.add_field(name='Sorry, looks like you do not have the right permissions', value='Do you have the manage channel permission?')
-
+      embed.add_field(name='Sorry, looks like you do not have the right permissions.', value='Do you have the manage channel permission?')
 
       await ctx.send(embed=embed)
+    
     if isinstance(error, commands.MissingRequiredArgument):
-      embed = discord.Embed(
-        color = discord.Color.gold()
+      embed = discord.embed(
+        color=discord.Color.gold()
       )
 
-      embed.add_field(name='Looks like you forgotten to add something....', value='Ex. >vcrename "VoiceChannelName" NewVoiceChannelName')
-
+      embed.add_field(name='Looks like you forgot something...', value='Syntax: [Prefix]vcrename "VoiceChanelName" NewVoiceChannelName')
 
       await ctx.send(embed=embed)
