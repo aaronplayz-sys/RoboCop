@@ -1,8 +1,10 @@
 from redbot.core import commands
+from redbot.core.bot import Red
 import discord
 from discord import utils
 
 class Emoji(commands.Cog):
+	@commands.command()
 	async def getemote(self, arg):
 		emoji = utils.get(self.bot.emojis, name = arg.strip(":"))
 
@@ -15,6 +17,7 @@ class Emoji(commands.Cog):
 		else:
 			return None
 
+	@commands.command()
 	async def getinstr(self, content):
 		ret = []
 
@@ -56,9 +59,6 @@ class Emoji(commands.Cog):
 			return content
 
 		return ret
-
-
-	# i added extra indent by mistake -_-
 
 	@commands.Cog.listener()
 	async def on_message(self, message):

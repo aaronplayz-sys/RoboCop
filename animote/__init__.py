@@ -1,4 +1,5 @@
+from redbot.core.bot import Red
 from .animote import Emoji
 
-def setup(bot):
-    bot.add_cog(Emoji())
+async def setup(bot: Red) -> None:
+    await bot.add_cog(Emoji())
