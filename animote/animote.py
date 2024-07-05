@@ -6,7 +6,7 @@ from discord import utils
 class Emoji(commands.Cog):
 	@commands.command()
 	async def getemote(self, arg):
-		emoji = utils.get(self.bot.emojis, name = arg.strip(":"))
+		emoji = utils.get(self.getemote, name = arg.strip(":"))
 
 		if emoji is not None:
 			if emoji.animated:
