@@ -1,5 +1,5 @@
 {
-    "author" : ["CrunchBangDev"],
+    "author" : ["CrunchBangDev", "YamiKaitou#8975"],
     "install_msg" : "You've just installed the Tube cog!",
     "name" : "Tube",
     "short" : "Subscribe to channels on the 'tube",
@@ -8,8 +8,7 @@
     "requirements": [
         "feedparser"
     ],
-    "min_bot_version": "3.1.8",
-    "max_bot_version": "0.0.0",
+    "min_bot_version": "3.5.0",
     "tags": [],
     "type": "COG"
 }

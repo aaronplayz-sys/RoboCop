@@ -40,7 +40,7 @@ I take no responsibility for misuse of my cogs.
 ## Changelog
 7/7/2024
 
-The animote cog has been removed as it is no longer my interest to have such of a cog.
+The animote cog has been removed as it is no longer my interest to have such of a cog. Finaily decided to make some changes to the Tube cog.
 
 To-do:
 - Look into making Tube into a hybrid cog
