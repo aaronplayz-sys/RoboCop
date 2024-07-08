@@ -25,7 +25,7 @@ I take no responsibility for misuse of my cogs.
 
 | Name | Description | Hybrid cog? |
 | --- | --- | --- |
-| [**BROKEN**] [animote](https://github.com/aaronplayz-sys/RoboCop/tree/main/animote) | lets you send animated emotes! | No |
+| [**REMOVED**] animote | lets you send animated emotes! | - |
 | [echo](https://github.com/aaronplayz-sys/RoboCop/tree/main/echo) | A command that repeats the user's input back into them | Yes |
 | [vcrename](https://github.com/aaronplayz-sys/RoboCop/tree/main/vcrename) | lets you & admin's change a voice channel's name with a command! | Yes |
 | [slashtest](https://github.com/aaronplayz-sys/RoboCop/tree/main/slashtest) | This commands simply returns 'Hello World'. *Temporary cog* | Yes |
@@ -38,10 +38,9 @@ I take no responsibility for misuse of my cogs.
 | [slashsync](https://github.com/aaronplayz-sys/RoboCop/tree/main/slashsync) | swapped imports and `bot.command()` to be compatible with red and made into a cog. | [about.abstractumbra.dev](https://about.abstractumbra.dev/discord.py/2023/01/29/sync-command-example.html) | was not a cog to begin with.
 
 ## Changelog
-6/10/2024
+7/7/2024
 
-The vcrename now works, removed local error handling it triggers more errors, using a loop to spit out success message when it did not anything. Might make this a 100% slash command, as it is better.
+The animote cog has been removed as it is no longer my interest to have such of a cog.
 
 To-do:
-- Attempt to fix animote, and make the cog a hybrid cog.
-- Make Tube cog, a hybrid cog
+- Look into making Tube into a hybrid cog
