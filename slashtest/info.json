@@ -1,12 +1,8 @@
 {
-    "author": [
-        "AaronPlayz"
-    ],
-    "install_msg": "Thank you for installing my cog! Please note that this is just a test cog as I am experirmenting with Slash commands on Red-DiscordBot.",
-    "name": "Slash test",
-    "short": "Test Slash command!",
-    "description": "This commands simply returns 'Hello World'.",
-    "tags": [
-        "Test"
-    ]
+  "author": ["AaronPlayz"],
+  "install_msg": "Thank you for installing my cog! Please note that this is just a test cog as I am experirmenting with Slash commands on Red-DiscordBot.",
+  "name": "Slash test",
+  "short": "Test Slash command!",
+  "description": "This commands simply returns 'Hello World'.",
+  "tags": ["Test"]
 }

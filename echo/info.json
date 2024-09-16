@@ -1,12 +1,8 @@
 {
-    "author": [
-        "AaronPlayz"
-    ],
-    "install_msg": "Thank you for installing the echo cog! Remember load the cog and enable this cog for slash commands!",
-    "name": "echo",
-    "short": "Mimic user input!",
-    "description": "This commands gives users the ability to make the bot repeat their words. Handy if you want the bot to say something instead of you!",
-    "tags": [
-        "Test"
-    ]
+  "author": ["AaronPlayz"],
+  "install_msg": "Thank you for installing the echo cog! Remember load the cog and enable this cog for slash commands!",
+  "name": "echo",
+  "short": "Mimic user input!",
+  "description": "This commands gives users the ability to make the bot repeat their words. Handy if you want the bot to say something instead of you!",
+  "tags": ["Test"]
 }
