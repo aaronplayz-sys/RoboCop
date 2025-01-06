@@ -1,8 +1,10 @@
+
 # RoboCop
 
 Cogs developed, and/ or modified by me. They can be used in your bot as long I receive credit.
-
-[![badge](https://img.shields.io/badge/AaronPlayz-RoboCop_Cogs-blueviolet?logo=python&logoColor=blueviolet)](https://aaronplayzgaming.gq/) [![](https://img.shields.io/badge/Red%20DiscordBot-V3-red.svg)](https://github.com/Cog-Creators/Red-DiscordBot)
+[
+![Static Badge](https://img.shields.io/badge/RoboCop_Cogs-jhj?logo=python&label=AaronPlayz-sys&color=blueviolet)
+](https://aaronplayzgaming.com/) [![](https://img.shields.io/badge/Red%20DiscordBot-V3-red.svg)](https://github.com/Cog-Creators/Red-DiscordBot)
 
 ## Contact me
 
@@ -32,17 +34,14 @@ I take no responsibility for misuse of my cogs.
 
 ## Modified cogs
 
-| Cog name                                                                   | What was modified                                                                  | Original repo or source                                                                                    | Why?                                                                     |
-| -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| Tube                                                                       | `__init__.py`                                                                      | [CBD-cogs](https://gitlab.com/CrunchBangDev/cbd-cogs)                                                      | `bot.add_cog(Tube(bot))` was not awaited cause the cog to not be loaded. |
-| [slashsync](https://github.com/aaronplayz-sys/RoboCop/tree/main/slashsync) | swapped imports and `bot.command()` to be compatible with red and made into a cog. | [about.abstractumbra.dev](https://about.abstractumbra.dev/discord.py/2023/01/29/sync-command-example.html) | was not a cog to begin with.                                             |
+| cog name | What was modified | Original repo or source | Why?  |
+|--|--|--|--|
+| Tube (Removed) | * | Redacted | Removed, as another maintainer has continued it's development. Plus cog no longer seems to be fit for video checks. |
+| [slashsync](https://github.com/aaronplayz-sys/RoboCop/tree/main/slashsync)| swapped imports and `bot.command()` to be compatible with red and made into a cog. | [Umbra's Rantings](https://about.abstractumbra.dev/discord.py/2023/01/29/sync-command-example.html) | was not a cog to begin with. |
+
 
 ## Changelog
 
-7/7/2024
+1/6/2025
 
-The animote cog has been removed as it is no longer my interest to have such of a cog. Finally decided to make some changes to the Tube cog.
-
-To-do:
-
-- Look into making Tube into a hybrid cog
+The Tube cog has been removed. Personally I only had it since the original creator didn't maintain it, and it broke in one of Red's updates and patched it myself. Someone else now maintains the cog, however I am using the YouTube cog from [mr42-cogs](https://github.com/Mister-42/mr42-cogs) repo.  I personally recommend this cog as there is more customizable options and can migrate current subscriptions from the Tube cog.
