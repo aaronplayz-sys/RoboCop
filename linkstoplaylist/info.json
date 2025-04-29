@@ -1,0 +1,9 @@
+{
+    "author": ["AaronPlayz"],
+    "install_msg": "Thank you for installing my cog! Please note that this cog is fairly new and under active development. If you find an issue, open one on GitHub, Open a pull request if you wish improve this cog.",
+    "name": "linkstoplaylist",
+    "short": "Add links to a playlist",
+    "description": "This cog monitors a specified text channel and attempts to add it to the Audio cogs playlist for mustic. Automation baby!",
+    "tags": ["Test"]
+  }
+  
