@@ -1,4 +1,4 @@
-from redbot.core import Red
+from redbot.core.bot import Red
 
 from .linkstoplaylist import linkstoplaylist
 
