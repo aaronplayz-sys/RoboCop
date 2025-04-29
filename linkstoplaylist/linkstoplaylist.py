@@ -1,6 +1,7 @@
 import re
-import discord
 from redbot.core import commands, Config
+from redbot.core.bot import Red
+import discord
 
 # Regex to match youtube URLs
 YOUTUBE_REGEX = r"https?://(?www\.)?(?:youtube\.com|youtu.be)/\S+"
