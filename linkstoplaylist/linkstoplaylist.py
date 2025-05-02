@@ -61,7 +61,7 @@ class linkstoplaylist(commands.Cog):
         
         # Check that a playlist has been set.
         target_playlist = await self.config.guild(message.guild).target_playlist()
-        if not message.channel.send("Target playlist is not set. Please use settargetplaylist command to set one."):
+        if not await message.channel.send("Target playlist is not set. Please use settargetplaylist command to set one."):
             return
 
         #  Check if the bot is in a voice channel. If not, attempts to join the authors channel.
