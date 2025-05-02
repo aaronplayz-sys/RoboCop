@@ -3,9 +3,6 @@ from redbot.core import commands, Config
 from redbot.core.bot import Red
 import discord
 
-# Regex to match youtube URLs
-YOUTUBE_REGEX = r"https?://(?www\.)?(?:youtube\.com|youtu.be)/\S+"
-
 class linkstoplaylist(commands.Cog):
     """
     Monitors a specified channel for YouTube links and trigger the Audio cog
@@ -55,6 +52,8 @@ class linkstoplaylist(commands.Cog):
         if not target_channel_id or message.channel.id != target_channel_id:
             return
         
+        #  Regexx for youtube urls
+        YOUTUBE_REGEX = re.compile(r'(?:https?:\/\/)?(?:www\.)?youtu(?:be\.com\/watch\?v=|\.be\/)([^\s&]+)')
         # Look for YouTube links in message.
         youtube_links = re.findall(YOUTUBE_REGEX, message.content)
         if not youtube_links:
